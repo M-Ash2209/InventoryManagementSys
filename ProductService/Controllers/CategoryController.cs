@@ -24,7 +24,7 @@ namespace ProductService.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCategoryById(int Id)
+        public async Task<IActionResult> GetCategoryById(int Id) ///testing for PRRRRRRRRRRRRRRRRRRRRRRRRRRRR
         {
             //var ctg = await _db.Categories.FindAsync(Id);
             var ctg = await _db.Categories
